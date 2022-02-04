@@ -6,8 +6,15 @@ interface UserInterface
 
     const MAX_INSTANCES = 5;
 
-    public function getRequest($request);
+    /**
+     * @param array $request
+     * @return mixed
+     */
+    public function getRequest(array $request);
 
+    /**
+     * @return mixed
+     */
     public function parseRequest();
 
 

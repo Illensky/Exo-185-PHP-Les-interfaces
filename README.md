@@ -1,6 +1,6 @@
 Consignes :
 
-- Dans classes/interfaces/user.interface.php , j'ai écrit une interface pour la classe
+- Dans classes/interfaces/user.interface.php, j'ai écrit une interface pour la classe
 user
 - La classe user implémente l'interface userInterface
 - Si vous testez le code en ligne, celui ci va retourner une erreur car la classe user
